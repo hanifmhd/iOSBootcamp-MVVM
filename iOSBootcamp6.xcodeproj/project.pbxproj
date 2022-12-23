@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357E13272956157400B86CC9 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357E13262956157400B86CC9 /* ArticleTableViewCell.swift */; };
+		35C8DDD22955ED7600B7CD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDD12955ED7600B7CD3E /* AppDelegate.swift */; };
+		35C8DDD42955ED7600B7CD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDD32955ED7600B7CD3E /* SceneDelegate.swift */; };
+		35C8DDD92955ED7600B7CD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C8DDD72955ED7600B7CD3E /* Main.storyboard */; };
+		35C8DDDB2955ED7800B7CD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C8DDDA2955ED7800B7CD3E /* Assets.xcassets */; };
+		35C8DDDE2955ED7800B7CD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C8DDDC2955ED7800B7CD3E /* LaunchScreen.storyboard */; };
+		35C8DDE72955EEE000B7CD3E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDE62955EEE000B7CD3E /* NewsTableViewController.swift */; };
+		35C8DDEA2955FB1600B7CD3E /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDE92955FB1600B7CD3E /* UIColor+CustomColor.swift */; };
+		35C8DDED2955FEC500B7CD3E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDEC2955FEC500B7CD3E /* Article.swift */; };
+		35C8DDEF2956024000B7CD3E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 35C8DDEE2956023F00B7CD3E /* Podfile */; };
+		35C8DDF22956034A00B7CD3E /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDF12956034A00B7CD3E /* URLRequest+Extensions.swift */; };
+		35C8DDF5295607C000B7CD3E /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C8DDF4295607C000B7CD3E /* ArticleViewModel.swift */; };
+		546CDA76D76985356A6B4F48 /* Pods_iOSBootcamp6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB5582EDEED82D87D4BA21D /* Pods_iOSBootcamp6.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15B5197546122B70D4C0B85C /* Pods-iOSBootcamp6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBootcamp6.debug.xcconfig"; path = "Target Support Files/Pods-iOSBootcamp6/Pods-iOSBootcamp6.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB5582EDEED82D87D4BA21D /* Pods_iOSBootcamp6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSBootcamp6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		357E13262956157400B86CC9 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		35C8DDCE2955ED7600B7CD3E /* iOSBootcamp6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBootcamp6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C8DDD12955ED7600B7CD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35C8DDD32955ED7600B7CD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35C8DDD82955ED7600B7CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C8DDDA2955ED7800B7CD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C8DDDD2955ED7800B7CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C8DDDF2955ED7800B7CD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C8DDE62955EEE000B7CD3E /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		35C8DDE92955FB1600B7CD3E /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		35C8DDEC2955FEC500B7CD3E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		35C8DDEE2956023F00B7CD3E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		35C8DDF12956034A00B7CD3E /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		35C8DDF4295607C000B7CD3E /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		B115B89DA12498B10E761CCE /* Pods-iOSBootcamp6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBootcamp6.release.xcconfig"; path = "Target Support Files/Pods-iOSBootcamp6/Pods-iOSBootcamp6.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C8DDCB2955ED7600B7CD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546CDA76D76985356A6B4F48 /* Pods_iOSBootcamp6.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285281992C7E3A9A6CF90829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B5197546122B70D4C0B85C /* Pods-iOSBootcamp6.debug.xcconfig */,
+				B115B89DA12498B10E761CCE /* Pods-iOSBootcamp6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		357E13242956154500B86CC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				357E13252956155B00B86CC9 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		357E13252956155B00B86CC9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				357E13262956157400B86CC9 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		35C8DDC52955ED7600B7CD3E = {
+			isa = PBXGroup;
+			children = (
+				35C8DDD02955ED7600B7CD3E /* iOSBootcamp6 */,
+				35C8DDCF2955ED7600B7CD3E /* Products */,
+				285281992C7E3A9A6CF90829 /* Pods */,
+				E1AABE16245D038C986AAA67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35C8DDCF2955ED7600B7CD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDCE2955ED7600B7CD3E /* iOSBootcamp6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C8DDD02955ED7600B7CD3E /* iOSBootcamp6 */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDEE2956023F00B7CD3E /* Podfile */,
+				35C8DDDF2955ED7800B7CD3E /* Info.plist */,
+				35C8DDD12955ED7600B7CD3E /* AppDelegate.swift */,
+				35C8DDD32955ED7600B7CD3E /* SceneDelegate.swift */,
+				35C8DDDA2955ED7800B7CD3E /* Assets.xcassets */,
+				35C8DDE52955EDF100B7CD3E /* Controllers */,
+				35C8DDF02956032A00B7CD3E /* Extensions */,
+				35C8DDDC2955ED7800B7CD3E /* LaunchScreen.storyboard */,
+				35C8DDD72955ED7600B7CD3E /* Main.storyboard */,
+				35C8DDEB2955FEAF00B7CD3E /* Models */,
+				35C8DDE82955FAE500B7CD3E /* Utils */,
+				35C8DDF32956079200B7CD3E /* ViewModels */,
+				357E13242956154500B86CC9 /* Views */,
+			);
+			path = iOSBootcamp6;
+			sourceTree = "<group>";
+		};
+		35C8DDE52955EDF100B7CD3E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDE62955EEE000B7CD3E /* NewsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		35C8DDE82955FAE500B7CD3E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDE92955FB1600B7CD3E /* UIColor+CustomColor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		35C8DDEB2955FEAF00B7CD3E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDEC2955FEC500B7CD3E /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35C8DDF02956032A00B7CD3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDF12956034A00B7CD3E /* URLRequest+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35C8DDF32956079200B7CD3E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				35C8DDF4295607C000B7CD3E /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1AABE16245D038C986AAA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB5582EDEED82D87D4BA21D /* Pods_iOSBootcamp6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C8DDCD2955ED7600B7CD3E /* iOSBootcamp6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C8DDE22955ED7800B7CD3E /* Build configuration list for PBXNativeTarget "iOSBootcamp6" */;
+			buildPhases = (
+				4AB8C575A2E235CA1A6E2CF8 /* [CP] Check Pods Manifest.lock */,
+				35C8DDCA2955ED7600B7CD3E /* Sources */,
+				35C8DDCB2955ED7600B7CD3E /* Frameworks */,
+				35C8DDCC2955ED7600B7CD3E /* Resources */,
+				4C10EA1BEF2735A821CA6BA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSBootcamp6;
+			productName = iOSBootcamp6;
+			productReference = 35C8DDCE2955ED7600B7CD3E /* iOSBootcamp6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C8DDC62955ED7600B7CD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					35C8DDCD2955ED7600B7CD3E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 35C8DDC92955ED7600B7CD3E /* Build configuration list for PBXProject "iOSBootcamp6" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C8DDC52955ED7600B7CD3E;
+			productRefGroup = 35C8DDCF2955ED7600B7CD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C8DDCD2955ED7600B7CD3E /* iOSBootcamp6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C8DDCC2955ED7600B7CD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C8DDDE2955ED7800B7CD3E /* LaunchScreen.storyboard in Resources */,
+				35C8DDDB2955ED7800B7CD3E /* Assets.xcassets in Resources */,
+				35C8DDEF2956024000B7CD3E /* Podfile in Resources */,
+				35C8DDD92955ED7600B7CD3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB8C575A2E235CA1A6E2CF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSBootcamp6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C10EA1BEF2735A821CA6BA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSBootcamp6/Pods-iOSBootcamp6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSBootcamp6/Pods-iOSBootcamp6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSBootcamp6/Pods-iOSBootcamp6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C8DDCA2955ED7600B7CD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C8DDD22955ED7600B7CD3E /* AppDelegate.swift in Sources */,
+				35C8DDD42955ED7600B7CD3E /* SceneDelegate.swift in Sources */,
+				35C8DDEA2955FB1600B7CD3E /* UIColor+CustomColor.swift in Sources */,
+				35C8DDF22956034A00B7CD3E /* URLRequest+Extensions.swift in Sources */,
+				357E13272956157400B86CC9 /* ArticleTableViewCell.swift in Sources */,
+				35C8DDE72955EEE000B7CD3E /* NewsTableViewController.swift in Sources */,
+				35C8DDF5295607C000B7CD3E /* ArticleViewModel.swift in Sources */,
+				35C8DDED2955FEC500B7CD3E /* Article.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35C8DDD72955ED7600B7CD3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C8DDD82955ED7600B7CD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C8DDDC2955ED7800B7CD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C8DDDD2955ED7800B7CD3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C8DDE02955ED7800B7CD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35C8DDE12955ED7800B7CD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C8DDE32955ED7800B7CD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B5197546122B70D4C0B85C /* Pods-iOSBootcamp6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7KD5463WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSBootcamp6/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prodigy.iOSBootcamp6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C8DDE42955ED7800B7CD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B115B89DA12498B10E761CCE /* Pods-iOSBootcamp6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7KD5463WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSBootcamp6/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prodigy.iOSBootcamp6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C8DDC92955ED7600B7CD3E /* Build configuration list for PBXProject "iOSBootcamp6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C8DDE02955ED7800B7CD3E /* Debug */,
+				35C8DDE12955ED7800B7CD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C8DDE22955ED7800B7CD3E /* Build configuration list for PBXNativeTarget "iOSBootcamp6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C8DDE32955ED7800B7CD3E /* Debug */,
+				35C8DDE42955ED7800B7CD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C8DDC62955ED7600B7CD3E /* Project object */;
+}
